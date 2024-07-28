@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 590px;
+}
+.toolbar{
+z-index: 5;
+height: 25px;
+font-size: 12px;
+font-family: Arial;
+padding-top: 3px;
+width: 100%;
+line-height: normal;
+background-color: rgba(44, 141, 145, 0.2);
+display: block;
+text-align: right;
+}
+.toolbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(42, 175, 161 );
+}
+#second-nav{
+    text-align: center;
+    color: whitesmoke;}
+#main-heading{
+    padding-top: 80px;
+    text-transform: capitalize;
+    text-align:center;
+}
+#button{
+    text-shadow: 2px;
+} 
+
+.main-hadees{
+    margin-left: 500px;
+    margin-top: 50px; 
+}
+.main-hadees button{
+    width: 380px;
+    height: 40px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5pt 1pt rgb(116, 109, 109);
+    border: none;
+}
+
+#input{
+    width: 380px;
+    height: 40px;
+    margin-left: 550px;
+    margin-top: 40px;
+    padding: 0 36px 0 12.8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 9pt 2pt rgb(116, 109, 109);
+}
+a{
+    text-decoration: none;
+}
+
+#contact1{
+    color: #c7c2c2;   
+}
+
+
+footer{
+background-color: black;
+height: 200px;
+margin-top: 30px;
+}
+.footer-links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footer-links a{
+    text-align: center;
+    padding-left: 20px;
+}
+body{background-color: rgb(208, 223, 223);
+}
+.footer-links1{
+    color: #dd0b0b;
+
+}
+.footer-links3{
+    color: palevioletred;
+}

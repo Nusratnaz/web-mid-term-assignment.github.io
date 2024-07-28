@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width: 100%;
+    height: 590px;
+}
+.toolbar{
+z-index: 5;
+height: 25px;
+font-size: 12px;
+font-family: Arial;
+padding-top: 3px;
+width: 100%;
+line-height: normal;
+background-color: rgba(44, 141, 145, 0.2);
+display: block;
+text-align: right;
+}
+.toolbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(42, 175, 161 );
+}
+#second-nav{
+    text-align: center;
+    color: whitesmoke;}
+#main-heading{
+    padding-top: 80px;
+    text-transform: capitalize;
+    text-align:center;
+}
+#button{
+    text-shadow: 2px;
+} 
+#input{
+    width: 380px;
+    height: 40px;
+    margin-left: 700px;
+    margin-top: 40px;
+    padding: 0 36px 0 12.8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 9pt 2pt rgb(116, 109, 109);
+}
+.sahih-hadees{
+    margin-top: 40px;
+    margin-left:400px;
+    text-align: center;
+    width: 55%;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+p{
+    width: 99%; 
+    font-style: oblique;
+    margin-top: 2%;
+
+}
+.sahih-hadees h2{
+    padding-top: 10px;
+}
+
+
+.booksname
+    {
+        
+        margin-left: 700px;
+        margin-top: 40px; 
+    }
+.booksname button{
+
+        width: 450px;
+        height: 50px;
+        border-radius: 5px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 5pt 1pt rgb(116, 109, 109);
+        color: rgb(42, 175, 161 );
+        font-size: xx-large;
+        border: none;
+    
+}
+@media (max-width: 1100px){
+.booksname{
+    width: 300px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 0 36px 0 12.8px;
+    font-size: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 9pt 2pt rgb(116, 109, 109);
+    
+}
+}
